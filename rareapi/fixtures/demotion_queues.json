@@ -1,0 +1,47 @@
+[
+  {
+    "model": "rareapi.demotionqueue",
+    "pk": 1,
+    "fields": {
+      "action": "Demote User 1",
+      "admin": 2,
+      "approver_one": 3
+    }
+  },
+  {
+    "model": "rareapi.demotionqueue",
+    "pk": 2,
+    "fields": {
+      "action": "Demote User 2",
+      "admin": 1,
+      "approver_one": 3
+    }
+  },
+  {
+    "model": "rareapi.demotionqueue",
+    "pk": 3,
+    "fields": {
+      "action": "Demote User 3",
+      "admin": 2,
+      "approver_one": 1
+    }
+  },
+  {
+    "model": "rareapi.demotionqueue",
+    "pk": 4,
+    "fields": {
+      "action": "Demote User 4",
+      "admin": 4,
+      "approver_one": 5
+    }
+  },
+  {
+    "model": "rareapi.demotionqueue",
+    "pk": 5,
+    "fields": {
+      "action": "Demote User 5",
+      "admin": 5,
+      "approver_one": 3
+    }
+  }
+]

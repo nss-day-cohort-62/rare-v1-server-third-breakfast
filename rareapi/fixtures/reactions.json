@@ -1,0 +1,42 @@
+[
+  {
+    "model": "rareapi.reaction",
+    "pk": 1,
+    "fields": {
+      "label": "Like",
+      "image_url": "https://example.com/like.png"
+    }
+  },
+  {
+    "model": "rareapi.reaction",
+    "pk": 2,
+    "fields": {
+      "label": "Love",
+      "image_url": "https://example.com/love.png"
+    }
+  },
+  {
+    "model": "rareapi.reaction",
+    "pk": 3,
+    "fields": {
+      "label": "Haha",
+      "image_url": "https://example.com/haha.png"
+    }
+  },
+  {
+    "model": "rareapi.reaction",
+    "pk": 4,
+    "fields": {
+      "label": "Wow",
+      "image_url": "https://example.com/wow.png"
+    }
+  },
+  {
+    "model": "rareapi.reaction",
+    "pk": 5,
+    "fields": {
+      "label": "Sad",
+      "image_url": "https://example.com/sad.png"
+    }
+  }
+]
