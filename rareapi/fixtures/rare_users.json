@@ -1,0 +1,57 @@
+[
+  {
+    "model": "rareapi.rareuser",
+    "pk": 1,
+    "fields": {
+      "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "profile_image_url": "https://example.com/profile1.jpg",
+      "created_on": "2023-05-01",
+      "active": true,
+      "user": 1
+    }
+  },
+  {
+    "model": "rareapi.rareuser",
+    "pk": 2,
+    "fields": {
+      "bio": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem.",
+      "profile_image_url": "https://example.com/profile2.jpg",
+      "created_on": "2023-04-15",
+      "active": true,
+      "user": 2
+    }
+  },
+  {
+    "model": "rareapi.rareuser",
+    "pk": 3,
+    "fields": {
+      "bio": "At vero eos et accusamus et iusto odio dignissimos ducimus.",
+      "profile_image_url": "https://example.com/profile3.jpg",
+      "created_on": "2023-03-21",
+      "active": false,
+      "user": 3
+    }
+  },
+  {
+    "model": "rareapi.rareuser",
+    "pk": 4,
+    "fields": {
+      "bio": "Excepteur sint occaecat cupidatat non proident, sunt in culpa.",
+      "profile_image_url": "https://example.com/profile4.jpg",
+      "created_on": "2023-02-10",
+      "active": true,
+      "user": 4
+    }
+  },
+  {
+    "model": "rareapi.rareuser",
+    "pk": 5,
+    "fields": {
+      "bio": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis.",
+      "profile_image_url": "https://example.com/profile5.jpg",
+      "created_on": "2023-01-05",
+      "active": false,
+      "user": 5
+    }
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "model": "rareapi.comment",
+    "pk": 1,
+    "fields": {
+      "content": "Great post!",
+      "created_on": "2023-05-01T10:00:00",
+      "post": 1,
+      "author": 2
+    }
+  },
+  {
+    "model": "rareapi.comment",
+    "pk": 2,
+    "fields": {
+      "content": "Nice work!",
+      "created_on": "2023-04-15T15:30:00",
+      "post": 1,
+      "author": 3
+    }
+  },
+  {
+    "model": "rareapi.comment",
+    "pk": 3,
+    "fields": {
+      "content": "I disagree with your point.",
+      "created_on": "2023-03-21T09:45:00",
+      "post": 2,
+      "author": 1
+    }
+  },
+  {
+    "model": "rareapi.comment",
+    "pk": 4,
+    "fields": {
+      "content": "This is really helpful!",
+      "created_on": "2023-02-10T12:15:00",
+      "post": 3,
+      "author": 4
+    }
+  },
+  {
+    "model": "rareapi.comment",
+    "pk": 5,
+    "fields": {
+      "content": "Thanks for sharing!",
+      "created_on": "2023-01-05T18:20:00",
+      "post": 3,
+      "author": 5
+    }
+  }
+]
