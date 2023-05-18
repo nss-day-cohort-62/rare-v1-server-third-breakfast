@@ -5,7 +5,7 @@ from rest_framework import serializers, status
 from rareapi.models import Category
 
 class CategoryView(ViewSet):
-    """This will serve as the view for Categories and handle ALL methods"""
+    """This will serve as the view for Categories and handle ALL methods for server side"""
 
     def list(self, request):
         """Handles GET requests for all categories"""
