@@ -18,10 +18,9 @@ from django.contrib import admin
 from django.urls import path
 from rest_framework import routers
 from django.conf.urls import include
-from rareapi.views import login_user, register_user, UsersView
+from rareapi.views import login_user, register_user
 
 router = routers.DefaultRouter(trailing_slash=False)
-router.register(r"users", UsersView, "user")
 
 urlpatterns = [
     path("admin/", admin.site.urls),
