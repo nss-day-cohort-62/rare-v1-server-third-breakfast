@@ -21,19 +21,6 @@ class UsersView(ViewSet):
         serializer = RareUserSerializer(rare_users, many=True)
         return Response(serializer.data, status=status.HTTP_200_OK)
 
-    # def retrieve(self, request, pk=None):
-    #     """Handle GET requests for single game
-
-    #     Returns:
-    #         Response -- JSON serialized game
-    #     """
-    #     try:
-    #         gamer = Gamer.objects.get(pk=pk)
-    #         serializer = GamerSerializer(gamer)
-    #         return Response(serializer.data, status=status.HTTP_200_OK)
-    #     except Gamer.DoesNotExist as ex:
-    #         return Response({"message": ex.args[0]}, status=status.HTTP_404_NOT_FOUND)
-
 
 class RareUserSerializer(serializers.ModelSerializer):
     """JSON serializer for rare users"""
@@ -49,13 +36,3 @@ class RareUserSerializer(serializers.ModelSerializer):
             "user",
         )
         depth = 1
-
-
-# class CreateGamerSerializer(serializers.ModelSerializer):
-#     class Meta:
-#         model = Gamer
-#         fields = [
-#             "id",
-#             "user",
-#             "bio",
-#         ]
