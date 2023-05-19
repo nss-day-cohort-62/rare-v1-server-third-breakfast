@@ -8,3 +8,7 @@ class RareUser(models.Model):
     created_on = models.DateField(auto_now_add=True) #check if this works on the database
     active = models.BooleanField(default=True)
     user = models.OneToOneField(User, on_delete=models.CASCADE)
+
+    @property
+    def full_name(self):
+        return f'{self.user.first_name} {self.user.last_name}'
