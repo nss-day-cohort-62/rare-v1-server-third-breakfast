@@ -22,7 +22,7 @@ from rareapi.views import login_user, register_user, TagView, UsersView
 
 router = routers.DefaultRouter(trailing_slash=False)
 router.register(r"tags", TagView, "tag")
-router.register(r"users", TagView, "user")
+router.register(r"users", UsersView, "user")
 
 urlpatterns = [
     path("admin/", admin.site.urls),
